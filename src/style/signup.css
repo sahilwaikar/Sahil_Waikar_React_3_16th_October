@@ -1,0 +1,57 @@
+.signup_div {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.signup_div .inner_div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    border: 90px solid;
+    padding: 50px 500px;
+    border-radius: 25px;
+}
+
+.signup_div .inner_div h2 {
+    text-transform: uppercase;
+    color: #bc1c1c;
+}
+
+.signup_div .inner_div label {
+    background-color: #2f2b24e0;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.signup_div .inner_div input {
+    height: 30px;
+    width: auto;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.signup_div .inner_div button {
+    width: auto;
+    height: 30px;
+    background-color: #288e7b;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
+}
+
+.signup_div .inner_div button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+/* # sourceMappingURL=signup.css.map */
